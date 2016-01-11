@@ -14,4 +14,6 @@ var studentTotal = getStudentNameAndTheirMarks([
   {name: 'UUU', marks: 900}
 ]);
 
-alert(studentTotal);
+//alert(studentTotal);
+
+document.write("<ul><li>"+studentTotal[0]+"</li><li>"+studentTotal[1]+"</li><li>"+studentTotal[2]+"</li></ul>")
